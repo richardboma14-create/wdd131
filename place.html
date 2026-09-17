@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Port Harcourt, Nigeria</title>
+    <meta name="description" content="Learn about Port Harcourt, Nigeria, including information about the city and its weather.">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Port Harcourt, Nigeria</h1>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <picture>
+                <source srcset="images/port-harcourt-small.jpg" media="(max-width: 700px)">
+                <img
+                    src="images/port-harcourt-large.webp"
+                    alt="View of Port Harcourt, Nigeria"
+                    width="960"
+                    height="540">
+            </picture>
+        </section>
+
+        <section class="information">
+
+            <section class="data">
+                <h2>Data</h2>
+
+                <p><strong>Country:</strong> Nigeria</p>
+                <p><strong>State:</strong> Rivers State</p>
+                <p><strong>Region:</strong> South-South</p>
+                <p><strong>Population:</strong> Over 1 million</p>
+                <p><strong>Currency:</strong> Nigerian Naira</p>
+                <p><strong>Language:</strong> English</p>
+                <p><strong>Time Zone:</strong> WAT (UTC+1)</p>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+
+                <img
+                    class="weather-icon"
+                    src="images/weather.svg"
+                    alt="Partly cloudy weather">
+
+                <p><strong>Temperature:</strong> <span id="temperature">10</span> °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> <span id="wind">10</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Port Harcourt, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
