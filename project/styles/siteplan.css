@@ -1,0 +1,228 @@
+body {
+margin: 0;
+font-family: “Montserrat”, sans-serif;
+color: #222222;
+background-color: #FFF8E7;
+line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+    }
+
+header {
+background-color: #006B3C;
+color: #FFFFFF;
+text-align: center;
+padding: 2rem 1rem;
+border-bottom: 6px solid #F4B400;
+}
+
+.logo {
+width: 60px;
+height: 60px;
+margin: 0 auto 0.5rem;
+display: grid;
+place-items: center;
+border: 3px solid #F4B400;
+border-radius: 50%;
+font-family: “Playfair Display”, serif;
+font-weight: 700;
+font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3 {
+font-family: “Playfair Display”, serif;
+}
+
+h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+
+header p {
+margin: 0.25rem 0 0;
+}
+
+main {
+width: min(100% - 2rem, 1000px);
+margin: 2rem auto;
+}
+
+section {
+background-color: #FFFFFF;
+margin-bottom: 2rem;
+padding: 1.5rem;
+border-left: 5px solid #006B3C;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+color: #006B3C;
+margin-top: 0;
+border-bottom: 2px solid #F4B400;
+padding-bottom: 0.4rem;
+}
+
+h3 {
+color: #006B3C;
+}
+
+li {
+margin-bottom: 0.75rem;
+}
+
+.color-list {
+display: grid;
+gap: 1rem;
+}
+
+.color-item {
+display: flex;
+align-items: center;
+gap: 1rem;
+padding: 0.75rem;
+border: 1px solid #DDDDDD;
+}
+
+.color-item p {
+margin: 0.25rem 0 0;
+}
+
+.color-swatch {
+width: 60px;
+height: 60px;
+flex-shrink: 0;
+border: 2px solid #222222;
+}
+
+.green .color-swatch {
+background-color: #006B3C;
+}
+
+.cream .color-swatch {
+background-color: #FFF8E7;
+}
+
+.gold .color-swatch {
+background-color: #F4B400;
+}
+
+.charcoal .color-swatch {
+background-color: #222222;
+}
+
+.font-example {
+margin-bottom: 1.5rem;
+}
+
+.font-example h3 {
+margin-bottom: 0.25rem;
+}
+
+.playfair {
+font-family: “Playfair Display”, serif;
+font-size: 1.3rem;
+}
+
+.montserrat {
+font-family: “Montserrat”, sans-serif;
+font-size: 1.1rem;
+}
+
+.wireframe {
+border: 3px solid #222222;
+padding: 1rem;
+margin-bottom: 2rem;
+background-color: #F5F5F5;
+}
+
+.wf-header,
+.wf-footer,
+.wf-about,
+.wf-section-title {
+border: 2px solid #222222;
+padding: 1rem;
+text-align: center;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+
+.wf-header {
+background-color: #006B3C;
+color: #FFFFFF;
+}
+
+.wf-hero {
+min-height: 200px;
+border: 2px dashed #222222;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.75rem;
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.wf-hero button {
+background-color: #F4B400;
+border: 2px solid #222222;
+padding: 0.6rem 1rem;
+font-family: “Montserrat”, sans-serif;
+font-weight: 700;
+}
+
+.wf-cards {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1rem;
+margin-bottom: 1rem;
+}
+
+.wf-cards div,
+.wf-mobile-card {
+min-height: 150px;
+border: 2px dashed #222222;
+display: grid;
+place-items: center;
+text-align: center;
+padding: 1rem;
+}
+
+.wf-about {
+min-height: 100px;
+display: grid;
+place-items: center;
+}
+
+.mobile-wireframe {
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wf-mobile-card {
+margin-bottom: 1rem;
+min-height: 180px;
+}
+
+footer {
+background-color: #006B3C;
+color: #FFFFFF;
+text-align: center;
+padding: 1rem;
+border-top: 5px solid #F4B400;
+}
+
+footer p {
+margin: 0;
+}
+
+@media (min-width: 700px) {
+.color-list {
+grid-template-columns: 1fr 1fr;
+}
+}
