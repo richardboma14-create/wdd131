@@ -14,7 +14,7 @@ const dishes = [
         category: "rice",
         meals: ["lunch", "dinner"],
         spice: ["medium", "hot"],
-        image: "images/jollof-rice.jpg",
+        image: "images/jollof-rice.JPG",
         description:
             "A beloved West African rice dish cooked in a rich tomato and pepper sauce."
     },
@@ -23,7 +23,7 @@ const dishes = [
         category: "soup",
         meals: ["lunch", "dinner"],
         spice: ["medium", "hot"],
-        image: "images/egusi-soup.jpg",
+        image: "images/egusi-soup.JPG",
         description:
             "A hearty Nigerian soup made with ground melon seeds, leafy vegetables, and seasonings."
     },
@@ -32,7 +32,7 @@ const dishes = [
         category: "soup",
         meals: ["lunch", "dinner"],
         spice: ["mild", "medium", "hot"],
-        image: "images/pounded-yam.jpg",
+        image: "images/pounded-yam.JPG",
         description:
             "A smooth, stretchy swallow commonly enjoyed with rich Nigerian soups."
     },
@@ -41,7 +41,7 @@ const dishes = [
         category: "protein",
         meals: ["lunch", "dinner", "snack"],
         spice: ["medium", "hot"],
-        image: "images/suya.jpg",
+        image: "images/suya.JPG",
         description:
             "Spiced grilled meat coated in a flavourful peanut-based seasoning."
     },
@@ -50,7 +50,7 @@ const dishes = [
         category: "street-food",
         meals: ["breakfast", "lunch"],
         spice: ["mild", "medium"],
-        image: "images/moi-moi.jpg",
+        image: "images/moi-moi.JPG",
         description:
             "A savoury steamed bean pudding made with blended beans, peppers, and seasonings."
     },
@@ -59,7 +59,7 @@ const dishes = [
         category: "street-food",
         meals: ["breakfast", "snack"],
         spice: ["mild", "medium"],
-        image: "images/akara.jpg",
+        image: "images/akara.JPG",
         description:
             "Crispy Nigerian bean fritters that are especially popular for breakfast."
     }
