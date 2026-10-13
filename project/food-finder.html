@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find Nigerian dishes based on your food preferences with the Naija Food Guide Food Finder.">
+    <meta name="author" content="Boma Richards Ojugba">
+    <title>Food Finder | Naija Food Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Naija Food Guide</a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="dishes.html">Explore Dishes</a>
+                <a href="food-finder.html" aria-current="page">Food Finder</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="dishes-hero">
+            <div class="dishes-hero-content">
+                <p class="eyebrow">YOUR NEXT FAVOURITE MEAL</p>
+                <h2>What Are You Craving?</h2>
+                <p>
+                    Let’s help you find a Nigerian dish that matches your
+                    taste, your appetite, and your mood.
+                </p>
+            </div>
+        </section>
+
+        <section class="food-finder-section">
+            <div class="finder-heading">
+                <p class="eyebrow">FIND YOUR FLAVOUR</p>
+                <h2>Discover Your Next Meal</h2>
+                <p>
+                    Choose your preferences below and let the Naija Food
+                    Guide suggest something delicious.
+                </p>
+            </div>
+
+            <form id="food-finder-form" class="food-finder-form">
+                <div class="form-group">
+                    <label for="food-category">What kind of dish do you want?</label>
+                    <select id="food-category" name="category">
+                        <option value="all">Any kind of dish</option>
+                        <option value="rice">Rice dishes</option>
+                        <option value="soup">Soups and swallows</option>
+                        <option value="street-food">Street food and snacks</option>
+                        <option value="protein">Meat and protein dishes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="food-meal">When are you eating?</label>
+                    <select id="food-meal" name="meal">
+                        <option value="all">Any time</option>
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="snack">Snack</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="food-spice">How spicy do you like your food?</label>
+                    <select id="food-spice" name="spice">
+                        <option value="all">Any spice level</option>
+                        <option value="mild">Mild</option>
+                        <option value="medium">Medium</option>
+                        <option value="hot">Hot</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="finder-button">Find My Dish</button>
+            </form>
+
+            <div id="finder-results" class="finder-results" aria-live="polite">
+                <p>Choose your preferences and select "Find My Dish" to get started.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year"></span> Boma Richards Ojugba | Naija Food Guide</p>
+        <a href="references.html">References</a>
+    </footer>
+</body>
+</html>
